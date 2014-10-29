@@ -1,0 +1,23 @@
+{
+  "name": "moroya/php-shindanmaker",
+  "description": "Shindanmaker",
+  "keywords": [
+    "shindanmaker"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/moroya/php-shindanmaker",
+  "authors": [
+    {
+      "name": "moroya"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Moroya\\Shindanmaker": "src/"
+    }
+  }
+}
