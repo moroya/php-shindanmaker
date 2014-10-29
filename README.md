@@ -1,8 +1,16 @@
 # php-shindanmaker
 
-診断メーカーをPHPから使うライブラリ
+Simple library for using Shindanmaker.
 
-# usage
+## Installation
+
+The recommended way to install this package is through [Composer](http://getcomposer.org/):
+
+```
+composer require moroya/php-shindanmaker:dev-master
+```
+
+## Usage
 
 ```php
 <?php
