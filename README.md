@@ -15,6 +15,8 @@ composer require moroya/php-shindanmaker:dev-master
 ```php
 <?php
 
+require_once('vendor/autoload.php');
+
 use Moroya\Shindanmaker\Shindan;
 
 $shindan = new Shindan(492093, 'moroya');
